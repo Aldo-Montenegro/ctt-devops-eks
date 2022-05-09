@@ -92,7 +92,7 @@ pipeline {
         }
         stage('configureingress') { 
             steps { 
-              
+              sh 'echo stage configureingress'
             }
         }
     }
